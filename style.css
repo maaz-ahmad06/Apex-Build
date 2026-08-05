@@ -51,6 +51,9 @@ html {
     font-size: 16px;
     background-color: var(--color-bg-darker);
     -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 body {
@@ -60,6 +63,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     width: 100%;
+    max-width: 100%;
     position: relative;
 }
 
@@ -1751,6 +1755,12 @@ address {
         width: 100%;
     }
     
+    .why-accent-box {
+        left: 0;
+        bottom: -20px;
+        max-width: calc(100% - 2rem);
+    }
+    
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -1775,7 +1785,7 @@ address {
     .nav-menu {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0;
         width: 300px;
         height: 100vh;
         background-color: var(--color-bg-darker);
@@ -1785,13 +1795,14 @@ address {
         align-items: center;
         gap: 2rem;
         z-index: 1000;
-        transition: right var(--transition-smooth);
+        transform: translateX(100%);
+        transition: transform var(--transition-smooth);
         padding: 2rem;
         box-shadow: var(--shadow-lg);
     }
     
     .nav-menu.open {
-        right: 0;
+        transform: translateX(0);
     }
     
     .nav-cta {
