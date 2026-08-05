@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Build | Premier Construction & Architectural Solutions</title>
+    <meta name="description" content="Apex Build is a industry-leading construction company delivering premium residential, commercial, and architectural solutions with quality and safety.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <svg viewBox="0 0 100 100" class="loader-svg">
+                    <!-- Construction building animation -->
+                    <path class="line-draw" d="M20,80 L20,30 L50,15 L80,30 L80,80 Z" fill="none" stroke="#f97316" stroke-width="4"/>
+                    <path class="line-draw delay-1" d="M50,15 L50,80" fill="none" stroke="#f97316" stroke-width="2"/>
+                    <path class="line-draw delay-2" d="M20,50 L80,50" fill="none" stroke="#f97316" stroke-width="2"/>
+                    <rect class="box-fill" x="30" y="58" width="12" height="22" rx="2" fill="#f97316" opacity="0"/>
+                    <rect class="box-fill delay-1" x="58" y="58" width="12" height="22" rx="2" fill="#f97316" opacity="0"/>
+                </svg>
+            </div>
+            <h2 class="loader-text">APEX<span>BUILD</span></h2>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
+                    </svg>
+                </span>
+                APEX<span>BUILD</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Get Quote</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg">
+                <div class="hero-slide active" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600');"></div>
+                <div class="hero-slide" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600');"></div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge animate-reveal">Engineering Excellence</span>
+                    <h1 class="hero-title animate-reveal delay-1">
+                        Building The Future <br>
+                        <span class="accent-text">Restoring The Past</span>
+                    </h1>
+                    <p class="hero-description animate-reveal delay-2">
+                        Apex Build delivers cutting-edge construction, sustainable infrastructure, and visionary architectural designs tailored to withstand generations.
+                    </p>
+                    <div class="hero-actions animate-reveal delay-3">
+                        <a href="#services" class="btn btn-primary">Explore Services</a>
+                        <a href="#portfolio" class="btn btn-secondary">Our Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Controls -->
+            <div class="hero-controls">
+                <button class="control-btn prev-btn" aria-label="Previous slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <button class="control-btn next-btn" aria-label="Next slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+            
+            <!-- Wave Divider -->
+            <div class="hero-divider">
+                <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,120L1320,120C1200,120,960,120,720,120C480,120,240,120,120,120L0,120Z" fill="#0f172a"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- STATS SECTION -->
+        <section class="stats-section scroll-animate">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <path d="M22 4L12 14.01l-3-3"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-number" data-target="250">0</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p class="stat-label">Years of Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-number" data-target="80">0</h3>
+                        <p class="stat-label">Expert Specialists</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-number" data-target="99">0</h3>
+                        <p class="stat-label">Safety Rating %</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section scroll-animate">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-images">
+                        <div class="image-wrapper main-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800" alt="Architectural design building facade" class="about-img main-img">
+                        </div>
+                        <div class="image-wrapper sub-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?q=80&w=600" alt="Construction engineers working" class="about-img sub-img">
+                        </div>
+                        <div class="floating-badge">
+                            <span class="badge-num">15+</span>
+                            <span class="badge-text">Years Building Trust</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-info">
+                        <span class="section-badge">Who We Are</span>
+                        <h2 class="section-title">Pioneering Engineering & Architecture Excellence</h2>
+                        <p class="section-desc">
+                            For over a decade and a half, APEX BUILD has redefined the skyline. We specialize in building structural wonders, modern architectural homes, and high-tech commercial facilities, fusing green engineering with robust design.
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path d="M20 6L9 17l-5-5"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Quality Assurance</h4>
+                                    <p>We use premium graded materials and implement multi-phase quality inspections.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path d="M20 6L9 17l-5-5"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>On-Time Delivery</h4>
+                                    <p>Our smart project tracking allows us to hit milestones on budget and on schedule.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path d="M20 6L9 17l-5-5"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Eco-Friendly Practices</h4>
+                                    <p>We integrate sustainable materials and target top LEED rating standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary">Learn More About Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services-section scroll-animate">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Our Services</span>
+                    <h2 class="section-title">High-Tier Construction Solutions</h2>
+                    <p class="section-desc mx-auto">
+                        From initial blueprint drawings to structural handovers, we deliver end-to-end expertise. Explore our core building sectors.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-img-container">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600" alt="Residential Luxury Home" class="service-img">
+                            <div class="service-icon-floating">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-body">
+                            <h3>Residential Building</h3>
+                            <p>Designing and constructing custom modern homes, luxury villas, and smart residential complexes tailored to client requirements.</p>
+                            <a href="#contact" class="service-link">
+                                Request Quote 
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-img-container">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600" alt="Commercial Glass Office Skyscraper" class="service-img">
+                            <div class="service-icon-floating">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="2" ry="2"/>
+                                    <line x1="12" y1="18" x2="12" y2="22"/>
+                                    <line x1="4" y1="6" x2="20" y2="6"/>
+                                    <line x1="4" y1="10" x2="20" y2="10"/>
+                                    <line x1="4" y1="14" x2="20" y2="14"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-body">
+                            <h3>Commercial Construction</h3>
+                            <p>Building high-rise corporate offices, commercial malls, retail spaces, and mixed-use complexes with premium engineering.</p>
+                            <a href="#contact" class="service-link">
+                                Request Quote 
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-img-container">
+                            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?q=80&w=600" alt="Interior Renovation Work" class="service-img">
+                            <div class="service-icon-floating">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-body">
+                            <h3>Renovation & Refurbishment</h3>
+                            <p>Transforming outdated structures into modern architectural spaces, matching top efficiency layouts with zero structural hazards.</p>
+                            <a href="#contact" class="service-link">
+                                Request Quote 
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-img-container">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=600" alt="Architectural scale model design drawing" class="service-img">
+                            <div class="service-icon-floating">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 18V6"/>
+                                    <path d="M6 12H18"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-body">
+                            <h3>Architecture & Design</h3>
+                            <p>3D visualizations, spatial blueprints, master-planning, and structural engineering layout approvals by accredited design architects.</p>
+                            <a href="#contact" class="service-link">
+                                Request Quote 
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="why-choose-section scroll-animate">
+            <div class="container">
+                <div class="why-grid">
+                    <div class="why-content">
+                        <span class="section-badge">Why Apex Build</span>
+                        <h2 class="section-title">Delivering Uncompromised Building Standards</h2>
+                        <p class="section-desc">
+                            We bridge complex structural engineering with high-fidelity architecture, setting milestones safely, sustainably, and perfectly on time.
+                        </p>
+                        
+                        <div class="why-points">
+                            <div class="why-point">
+                                <div class="point-number">01</div>
+                                <div class="point-body">
+                                    <h3>Certified Industry Specialists</h3>
+                                    <p>Our workforce features licensed civil engineers, project managers, and interior designers certified under top global regulatory boards.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-point">
+                                <div class="point-number">02</div>
+                                <div class="point-body">
+                                    <h3>Strict Safety Protocols</h3>
+                                    <p>We boast a near-perfect safety record. Every job site undergoes daily checks, implementing rigorous hazard prevention strategies.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-point">
+                                <div class="point-number">03</div>
+                                <div class="point-body">
+                                    <h3>Complete Cost Transparency</h3>
+                                    <p>No hidden charges or milestone hikes. We layout comprehensive project estimates detailing material types, quantities, and timelines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-image-panel">
+                        <img src="https://images.unsplash.com/photo-1473877139456-1398c5e52484?q=80&w=800" alt="Bridge construction engineering layout" class="why-main-img">
+                        <div class="why-accent-box">
+                            <div class="accent-box-content">
+                                <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="#f97316" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                                <h3>ISO 9001:2015</h3>
+                                <p>Certified Quality Management Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio-section scroll-animate">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Recent Projects</span>
+                    <h2 class="section-title">Our Architectural Masterpieces</h2>
+                    <p class="section-desc mx-auto">
+                        Explore our latest residential and commercial structures constructed under modern structural standards.
+                    </p>
+                </div>
+
+                <!-- Filters -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="renovation">Renovation</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item commercial">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800" alt="Apex Commercial Tower Skyscraper" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Commercial</span>
+                                    <h3>Apex Commercial Tower</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-item residential">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800" alt="Luxury Villa Skyline" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Residential</span>
+                                    <h3>The Glass Villa</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-item commercial">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800" alt="Eco Office Workspace" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Commercial</span>
+                                    <h3>Eco Corporate Office</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-item renovation">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?q=80&w=600" alt="Urban Loft Renovation" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Renovation</span>
+                                    <h3>Urban Loft Renovation</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?q=80&w=600" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-item residential">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800" alt="Modern Heights Condominium" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Residential</span>
+                                    <h3>Modern Heights Condo</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio-item renovation">
+                        <div class="portfolio-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?q=80&w=800" alt="Retro Factory Restoration" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-text">
+                                    <span class="item-category">Renovation</span>
+                                    <h3>Vintage Hub Refurbish</h3>
+                                </div>
+                                <a href="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?q=80&w=800" target="_blank" class="portfolio-view-btn" aria-label="View project image">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials-section scroll-animate">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-desc mx-auto">
+                        Honest feedback from residential homeowners and corporate executives who built with Apex Build.
+                    </p>
+                </div>
+
+                <div class="testimonials-slider">
+                    <div class="testimonial-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card active">
+                            <div class="stars">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                            <p class="quote">"Apex Build exceeded all of our expectations with our new headquarters. Their team handled everything from architectural blueprints to zoning clearances. Delivered 2 weeks ahead of schedule!"</p>
+                            <div class="client-info">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150" alt="Marcus Sterling" class="client-avatar">
+                                <div class="client-details">
+                                    <h4>Marcus Sterling</h4>
+                                    <span>CEO, Sterling Enterprises</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                            <p class="quote">"Building our dream home was completely stress-free with Apex Build. Their digital tracking system kept us informed daily, and their architectural designers were incredibly supportive."</p>
+                            <div class="client-info">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150" alt="Sarah Jenkins" class="client-avatar">
+                                <div class="client-details">
+                                    <h4>Sarah Jenkins</h4>
+                                    <span>Homeowner, Glass Villa project</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                            <p class="quote">"The factory restoration project was massive, requiring complex structural upgrades. Apex Build completed it under tight regulatory restrictions and safety standards. True professionals."</p>
+                            <div class="client-info">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150" alt="Arthur Vance" class="client-avatar">
+                                <div class="client-details">
+                                    <h4>Arthur Vance</h4>
+                                    <span>Director of Operations, Zenith Corp</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide Dots -->
+                    <div class="slider-dots">
+                        <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+                        <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+                        <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section scroll-animate">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Info Panel -->
+                    <div class="contact-info-panel">
+                        <span class="section-badge text-amber">Contact Us</span>
+                        <h2 class="section-title">Ready to Start Your Project?</h2>
+                        <p class="section-desc">
+                            Reach out today for a complimentary project evaluation, cost estimates, and blueprint reviews. Let's build together.
+                        </p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Phone Support</span>
+                                    <a href="tel:+18005550199">+1 (800) 555-0199</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Email Address</span>
+                                    <a href="mailto:info@apexbuild.com">info@apexbuild.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Headquarters</span>
+                                    <address>842 Buildtech Boulevard, Suite 500, New York, NY 10001</address>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mini Map mockup -->
+                        <div class="map-mockup">
+                            <div class="map-overlay">
+                                <svg viewBox="0 0 24 24" width="30" height="30" fill="#f97316"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Apex HQ - Map View</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form Panel -->
+                    <div class="contact-form-panel">
+                        <form id="contactForm" class="contact-form" autocomplete="off">
+                            <h3 class="form-title">Send a Message</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="name" required placeholder=" ">
+                                    <label for="name">Your Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" required placeholder=" ">
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder=" ">
+                                <label for="phone">Phone Number</label>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="project-type" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="residential">Residential Building</option>
+                                    <option value="commercial">Commercial Construction</option>
+                                    <option value="renovation">Renovation & Refurbishment</option>
+                                    <option value="architecture">Architecture & Planning</option>
+                                </select>
+                                <label for="project-type" class="select-label">Project Type</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message">Describe Your Project</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Submit Request</span>
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                                </svg>
+                            </button>
+
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col col-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
+                        </svg>
+                    </span>
+                    APEX<span>BUILD</span>
+                </a>
+                <p class="brand-desc">
+                    Premium structural engineering and visionary architecture. We construct buildings built to endure.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1V12h3v3h-3v6.8c4.56-.93 8-4.96 8-9.8z"/></svg>
+                    </a>
+                    <a href="#" aria-label="X (formerly Twitter)">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#portfolio">Recent Projects</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Our Sectors</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Residential Architecture</a></li>
+                    <li><a href="#services">Commercial High-Rises</a></li>
+                    <li><a href="#services">Refurbishments</a></li>
+                    <li><a href="#services">Structural Planning</a></li>
+                    <li><a href="#services">Interior Styling</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our quarterly architecture and building development newsletter.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your Email Address" required aria-label="Email subscription">
+                    <button type="submit" aria-label="Subscribe">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </button>
+                </form>
+                <div id="newsletterStatus" class="newsletter-status"></div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Apex Build Construction Company. All rights reserved.</p>
+            <div class="bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Site Map</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
